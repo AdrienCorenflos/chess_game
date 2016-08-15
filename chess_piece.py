@@ -1,4 +1,4 @@
-from .moves import *
+from moves import *
 
 
 def combine_positions(*positions):

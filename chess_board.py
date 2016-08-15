@@ -1,5 +1,6 @@
-from .settings import Colour
-from .chess_piece import *
+from settings import Colour
+from chess_piece import *
+
 
 def takewhile(fun, iterable):
     iterator = iter(iterable)
@@ -164,6 +165,3 @@ class ChessBoard(object):
 
         if display:
             self.display()
-
-
-
